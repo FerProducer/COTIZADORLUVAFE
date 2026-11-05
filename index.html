@@ -1,4 +1,14 @@
-<!DOCTYPE html>
+from pathlib import Path
+import shutil, zipfile, textwrap, json, os
+
+base = Path("/mnt/data/luvafe-dessert-bar")
+assets = base / "assets"
+assets.mkdir(parents=True, exist_ok=True)
+logo_src = Path("/mnt/data/Logotipo minimalista LUVAFE con café(1).png")
+logo_dst = assets / "logo-luvafe.png"
+shutil.copy2(logo_src, logo_dst)
+
+html = r'''<!DOCTYPE html>
 <html lang="es-MX">
 <head>
 <meta charset="UTF-8">
