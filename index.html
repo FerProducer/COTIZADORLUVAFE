@@ -16,6 +16,125 @@
 @media(max-width:1100px){.package-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.quote-layout{grid-template-columns:1fr}.sticky{position:static}}
 @media(max-width:760px){.app{display:block}.sidebar{position:fixed;z-index:15;left:-270px;top:0;bottom:0;width:250px;transition:left .2s}.sidebar.open{left:0}.mobile-menu{display:inline-flex}.topbar{padding:0 16px;height:66px}.content{padding:22px 15px 45px}.topbar h1{font-size:17px}.topbar p{display:none}.two,.three{grid-template-columns:1fr}.form-grid,.form-grid.cols3{grid-template-columns:1fr}.package-grid{grid-template-columns:1fr}.stats{gap:9px}.stat{padding:13px}.stat-value{font-size:21px}.page-title{font-size:25px}.panel{padding:16px}.doc-head{display:block}.doc-meta{text-align:left;margin-top:12px}.document{padding:18px}.doc-grid{grid-template-columns:1fr}.product-row{grid-template-columns:1fr 75px 80px}.top-actions .btn span{display:none}}
 @media print{body{background:white}.sidebar,.topbar,.no-print{display:none!important}.app{display:block}.main,.content{padding:0;margin:0;max-width:none}.page{display:none!important}#printArea{display:block!important}.document{border:0;max-width:none;padding:0}.document table{min-width:0}.document th,.document td{font-size:10px;padding:7px}.doc-section{break-inside:avoid}@page{size:A4;margin:15mm}}
+
+@media print {
+
+  @page {
+    size: A4;
+    margin: 12mm;
+  }
+
+  html, body {
+    background: #ffffff !important;
+    color: #30251e !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    min-height: auto !important;
+  }
+
+  /* Ocultar elementos de navegación */
+  .sidebar,
+  .topbar,
+  .no-print,
+  #toast {
+    display: none !important;
+  }
+
+  /* Eliminar estructura de aplicación */
+  .app {
+    display: block !important;
+    min-height: 0 !important;
+  }
+
+  .main,
+  .content {
+    display: block !important;
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Ocultar todas las páginas */
+  .page {
+    display: none !important;
+  }
+
+  /* Mostrar la página del documento */
+  #page-document {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Mostrar el contenido imprimible */
+  #printArea {
+    display: block !important;
+    width: 100% !important;
+    visibility: visible !important;
+  }
+
+  .document {
+    display: block !important;
+    visibility: visible !important;
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+    background: white !important;
+    color: #30251e !important;
+  }
+
+  .document * {
+    visibility: visible !important;
+  }
+
+  .document table {
+    width: 100% !important;
+    min-width: 0 !important;
+    border-collapse: collapse !important;
+  }
+
+  .document th,
+  .document td {
+    font-size: 10px !important;
+    padding: 7px !important;
+  }
+
+  .doc-head {
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+
+  .doc-grid {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+  }
+
+  .doc-section {
+    break-inside: avoid;
+  }
+
+  .doc-total {
+    break-inside: avoid;
+  }
+
+  img {
+    max-width: 210px !important;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  * {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+}
+
 </style>
 </head>
 <body>
