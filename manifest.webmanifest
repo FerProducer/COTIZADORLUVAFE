@@ -1,0 +1,37 @@
+{
+  "id": "./",
+  "name": "LUVAFE Dessert Bar | Cotizador Profesional",
+  "short_name": "LUVAFE Cotizador",
+  "description": "Cotizador profesional para eventos, paquetes y barra de postres LUVAFE.",
+  "lang": "es-MX",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#F3EFE0",
+  "theme_color": "#4E3629",
+  "categories": [
+    "business",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "./assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
