@@ -3,9 +3,9 @@ const APP_SHELL = [
   './',
   './index.html',
   './manifest.webmanifest',
-  './assets/icon-192.png',
-  './assets/icon-512.png',
-  './assets/icon-maskable-512.png',
+  './assets/lvf.png',
+  './assets/lvf.png',
+  './assets/lvf.png',
   './assets/logo-luvafe.png'
 ];
 
