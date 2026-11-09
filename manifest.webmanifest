@@ -16,19 +16,22 @@
   ],
   "icons": [
     {
-      "src": "./assets/icon-192.png",
+      "src": "./assets/ChatGPT Image 5 mar 2026, 11_19_24 p.m..png
+.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "./assets/icon-512.png",
+      "src": "./assets/ChatGPT Image 5 mar 2026, 11_19_24 p.m..png
+.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "./assets/icon-maskable-512.png",
+      "src": "./assets/ChatGPT Image 5 mar 2026, 11_19_24 p.m..png
+.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
